@@ -1,0 +1,9 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .hero, .about, .projects, .skills, .experience, .contact {
+    animation: fadeIn 1s ease-in-out;
+  }
